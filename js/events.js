@@ -14,12 +14,15 @@ function frameIt(){
 
 function pressIt(){
   $('#typing').on('keydown', function(event){
-    if (event.which === g){
+    if (event.which === 'g'){
       alert ("You pressed 'g'!")
     }
   })
 }
 
+function submitIt(){
+  
+}
 
 $(document).ready(function(){
 
