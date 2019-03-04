@@ -14,7 +14,7 @@ function frameIt(){
 
 function pressIt(){
   $('#typing').on('keydown', function(event){
-    
+    if ()
   })
 }
 
